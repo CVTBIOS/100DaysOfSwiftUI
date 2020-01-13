@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DABE847323CCDA5000FC473A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABE847223CCDA5000FC473A /* AppDelegate.swift */; };
+		DABE847523CCDA5000FC473A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABE847423CCDA5000FC473A /* SceneDelegate.swift */; };
+		DABE847723CCDA5000FC473A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABE847623CCDA5000FC473A /* ContentView.swift */; };
+		DABE847923CCDA5500FC473A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DABE847823CCDA5500FC473A /* Assets.xcassets */; };
+		DABE847C23CCDA5500FC473A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DABE847B23CCDA5500FC473A /* Preview Assets.xcassets */; };
+		DABE847F23CCDA5500FC473A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DABE847D23CCDA5500FC473A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DABE846F23CCDA5000FC473A /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DABE847223CCDA5000FC473A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DABE847423CCDA5000FC473A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DABE847623CCDA5000FC473A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DABE847823CCDA5500FC473A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DABE847B23CCDA5500FC473A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DABE847E23CCDA5500FC473A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DABE848023CCDA5500FC473A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DABE846C23CCDA5000FC473A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DABE846623CCDA5000FC473A = {
+			isa = PBXGroup;
+			children = (
+				DABE847123CCDA5000FC473A /* WeSplit */,
+				DABE847023CCDA5000FC473A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DABE847023CCDA5000FC473A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DABE846F23CCDA5000FC473A /* WeSplit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DABE847123CCDA5000FC473A /* WeSplit */ = {
+			isa = PBXGroup;
+			children = (
+				DABE847223CCDA5000FC473A /* AppDelegate.swift */,
+				DABE847423CCDA5000FC473A /* SceneDelegate.swift */,
+				DABE847623CCDA5000FC473A /* ContentView.swift */,
+				DABE847823CCDA5500FC473A /* Assets.xcassets */,
+				DABE847D23CCDA5500FC473A /* LaunchScreen.storyboard */,
+				DABE848023CCDA5500FC473A /* Info.plist */,
+				DABE847A23CCDA5500FC473A /* Preview Content */,
+			);
+			path = WeSplit;
+			sourceTree = "<group>";
+		};
+		DABE847A23CCDA5500FC473A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DABE847B23CCDA5500FC473A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DABE846E23CCDA5000FC473A /* WeSplit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DABE848323CCDA5500FC473A /* Build configuration list for PBXNativeTarget "WeSplit" */;
+			buildPhases = (
+				DABE846B23CCDA5000FC473A /* Sources */,
+				DABE846C23CCDA5000FC473A /* Frameworks */,
+				DABE846D23CCDA5000FC473A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeSplit;
+			productName = WeSplit;
+			productReference = DABE846F23CCDA5000FC473A /* WeSplit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DABE846723CCDA5000FC473A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "UVB-Data GmbH";
+				TargetAttributes = {
+					DABE846E23CCDA5000FC473A = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = DABE846A23CCDA5000FC473A /* Build configuration list for PBXProject "WeSplit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DABE846623CCDA5000FC473A;
+			productRefGroup = DABE847023CCDA5000FC473A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DABE846E23CCDA5000FC473A /* WeSplit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DABE846D23CCDA5000FC473A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABE847F23CCDA5500FC473A /* LaunchScreen.storyboard in Resources */,
+				DABE847C23CCDA5500FC473A /* Preview Assets.xcassets in Resources */,
+				DABE847923CCDA5500FC473A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DABE846B23CCDA5000FC473A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABE847323CCDA5000FC473A /* AppDelegate.swift in Sources */,
+				DABE847523CCDA5000FC473A /* SceneDelegate.swift in Sources */,
+				DABE847723CCDA5000FC473A /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DABE847D23CCDA5500FC473A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DABE847E23CCDA5500FC473A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DABE848123CCDA5500FC473A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DABE848223CCDA5500FC473A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DABE848423CCDA5500FC473A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
+				DEVELOPMENT_TEAM = X88QN6EGG9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WeSplit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.uvb-data.WeSplit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DABE848523CCDA5500FC473A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
+				DEVELOPMENT_TEAM = X88QN6EGG9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WeSplit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.uvb-data.WeSplit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DABE846A23CCDA5000FC473A /* Build configuration list for PBXProject "WeSplit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABE848123CCDA5500FC473A /* Debug */,
+				DABE848223CCDA5500FC473A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DABE848323CCDA5500FC473A /* Build configuration list for PBXNativeTarget "WeSplit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABE848423CCDA5500FC473A /* Debug */,
+				DABE848523CCDA5500FC473A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DABE846723CCDA5000FC473A /* Project object */;
+}
